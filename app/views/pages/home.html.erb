@@ -1,1 +1,7 @@
 <%= link_to "Get Started For Free", new_organization_registration_path%></p>
+
+<%= link_to "Sign up for free", new_organization_registration_path(plan: @free_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
+
+<%= link_to "Sign up with Basic", new_organization_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
+
+<%= link_to "Sign up with Advanced", new_organization_registration_path(plan: @advanced_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
