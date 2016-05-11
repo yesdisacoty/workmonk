@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'stripe'
 gem 'stripe_event'
 gem 'figaro'
+gem 'jquery-ui-rails'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
