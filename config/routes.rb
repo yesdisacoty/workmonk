@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'pages#home'
+  devise_for :organizations, controllers: { registrations: 'organizations/registrations' }
   devise_for :organizations
   devise_for :employees
   # The priority is based upon order of creation: first created -> highest priority.

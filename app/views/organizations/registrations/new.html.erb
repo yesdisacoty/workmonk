@@ -1,0 +1,13 @@
+<h2>Choose Your Enlightenment Stage</h2>
+<br><br>
+
+
+  <% if params[:plan] == '1' %>
+  <%= render 'new_org_form1' %>
+  <% elsif params[:plan] == '3' %>
+  <%= render 'new_org_form3' %>
+  <% elsif params[:plan] == '4' %>
+  <%= render 'new_org_form4' %>  
+  <% else %>
+  <p>Error</p>
+  <% end %>
